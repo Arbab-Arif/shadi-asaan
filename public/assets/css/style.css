@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'LitSans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('LitSans Medium'), url('../fonts/LitSans-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Arial Rounded MT Std";
+    src: url("../fonts/031795c120315d27375070388a523351.eot"),
+    url("../fonts/031795c120315d27375070388a523351.woff2") format("woff2"), /* chrome firefox */ url("../fonts/031795c120315d27375070388a523351.woff") format("woff"), /* chrome firefox */ url("../fonts/031795c120315d27375070388a523351.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/ url("../fonts/031795c120315d27375070388a523351.svg") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: proxima-nova;
+    src: url("../fonts/FontsFree-Net-ProximaNova-Regular.ttf");
+}
+
+* {
+    font-family: proxima-nova !important;
+}
+
+body {
+    background: #fffaf8;
+}
+
+#map {
+    background: #fffaf8;
+}
+
+.bg-secondary {
+    background: #6a715d;
+}
+
+#what_we_are {
+}
+
+
+.content p {
+    color: #6a715d !important;
+}
+
+.text-secondary {
+    color: #6a715d !important;
+}
+
+.font-secondary {
+    font-family: 'Arial Rounded MT Std', serif;
+}
+
+/*ul.feature-beneifits {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*ul.feature-beneifits li:nth-child(2) {*/
+/*    margin-left: 10px;*/
+/*    font-weight: 900;*/
+/*}*/
+
+/*ul.feature-beneifits li img {*/
+/*    width: 90px;*/
+/*    height: 45px;*/
+/*}*/
+
+
+/*ul.feature-beneifits li p {*/
+/*    font-size: 20px;*/
+/*    font-weight: 400;*/
+/*}*/
